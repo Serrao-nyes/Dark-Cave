@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.3.4" orientation="orthogonal" renderorder="right-down" width="70" height="70" tilewidth="16" tileheight="16" infinite="0" nextlayerid="30" nextobjectid="118">
+ <tileset firstgid="1" name="cave" tilewidth="16" tileheight="16" tilecount="336" columns="16">
+  <image source="../../MapTexture/cave.png" width="256" height="336"/>
+ </tileset>
+ <tileset firstgid="337" name="SNES - Final Fantasy 6 - Imperial Camp Tiles" tilewidth="16" tileheight="16" tilecount="528" columns="33">
+  <image source="../../MapTexture/SNES - Final Fantasy 6 - Imperial Camp Tiles.png" trans="ff00ff" width="528" height="256"/>
+  <tile id="37">
+   <animation>
+    <frame tileid="37" duration="1000"/>
+    <frame tileid="70" duration="1000"/>
+    <frame tileid="71" duration="1000"/>
+   </animation>
+  </tile>
+ </tileset>
+ <layer id="22" name="Background" width="70" height="70">
+  <data encoding="base64" compression="zlib">
+   eJzt200OwUAYgOHp7N1AwgGEEzhHt70AW1s7O64g0YN0ZeMqriB8gwkm/jok/dq+i3cxkrYzD0IzaZoYkzagnjVmFLRTMK+qcy65rX4e2sIFF+0u7po95e8FLrpcql43LrjgggsuusIFl7q6zBR1lLoyzyK5hYsul+OT2uSSXq65/lQbXZ5VBOGCCy644FI/l9jffO0u/8itcxtxnFaX8Rf/cV61sGYerlNeM0Nrsm/bJzpdfs25Dq6Fa4ypKS7/DhdccMEFF1w0hAsuuDw2kXuCqS13TBtclmKywoXvES64KAkXXHDBBRdcNIQLLk1yOSTnvcDMJ+N1zDrLnke7S27NfCP3wr685H2xTywK/2yLK9x3bbPL/XOdg5q7yOc9E4u+T8ZFjEsn2I+W8dvzVOVCRERERERERHTfCcr2zrQ=
+  </data>
+ </layer>
+ <layer id="21" name="Structure" width="70" height="70">
+  <data encoding="base64" compression="zlib">
+   eJztmT1P21AUhvPF1xCpA2VoGIGBogq6dO3GQJswsBL4A3ysrYpaxv6DSi1du7TMgNR2ZOBn0KED/wHeKLa4HB3HNnbsY/t9pFfXduTk+tHxvddxrRaNeeSV4XSQ68bD/GtEvLgErOR4zVHyXOnzRDO1yw+EXnSse+kofc7Ci/XxhfXCemG9sF7KVi/0osP7SIf1omO9Xji+2LqPilAvZ3h+Pvdy0cjGy1uki/RE23X2p8d0zZbrZRvpIzui7Tv7zwL6nFW9SLLwsofsIwei3Xf2q+glCnmOQXndR1HIc86y7CXPerF8H7FedJLUyxTSQia8TNbizfuW68Vf4/jrGbnW6YnP3e0nyBfkqZc5pB1yjttuKv2x4sVf4/jrGbnW2RGfu9uzyDvks5cftaGbUee47a7SHyte/DWOv56Ra50D8bm7vYAsiiyFnOO2h0p/rHixBr3o0ItOkbxcinfpV97+N+Ud+0nC9+7WvLRG9Oe/uNYbb/+74uBrXC/id615GcWM6Gvb20/qpV/HnI3s1u+PFcnLsujri5S8fISPT8hxQb1soK9vkC30v4u2l5IXjSJ5CSLISzPBtZXBC+aj1/LYiXIsDmXwMg7K7mUV99Ma8jLmeFN2L2HcBviy4kVbQ+SJFS/aGiLqfFKF54DHwPWLDr3o0ItOEi9B433VvWjj/YCqewmCXu5x/xOjF51cvaTx280SekkJetGpkpcPmDePvLnzJ9pfyGnAM2VUL2Hf42LVy/v6MAN+o/2D/E3oJex7XKx6icM47qOlEngZB+v0QgghhBBCCCGEZModdkIgRg==
+  </data>
+ </layer>
+ <layer id="28" name="Misc" width="70" height="70">
+  <data encoding="base64" compression="zlib">
+   eJzt2DEKwDAIAED9dkn+XkrGOpakJHfgLiqCRgAAAAAAAABwupYRPVdn8T9XjmBPz9w3/X3p9kFJXWr2JAAAwDx+GTW3KQAAAAAAwDdumeIHyg==
+  </data>
+ </layer>
+ <layer id="27" name="Scrigni" width="70" height="70">
+  <data encoding="base64" compression="zlib">
+   eJzt1rEJAEAIBEHt2f75Dh4EwcCZCja44CIAAAAAgAmV2wXQY7MAAH/+EgAAAAAAAAAAAABwxQP9mgFg
+  </data>
+ </layer>
+ <layer id="29" name="Coda di Fenice" width="70" height="70">
+  <data encoding="base64" compression="zlib">
+   eJztzkEJAAAIBLAztP3NIAh+tgRLAAAAAIALXd8DAAAAAAAAAAAAAAAAAIC9AaStAHc=
+  </data>
+ </layer>
+ <layer id="19" name="Pozione" width="70" height="70">
+  <data encoding="base64" compression="zlib">
+   eJztzjEBAAAIA6AZ2v7+BtAHEpAAAAAAAAAAAFvX9wAAAAAAAAAAAAAA4MYAKUoAdw==
+  </data>
+ </layer>
+ <layer id="26" name="Etere" width="70" height="70">
+  <data encoding="base64" compression="zlib">
+   eJztzgENAAAIA6Ab2v7G0E1IQAIAAAAAwEdd2wMAAAAAAAAAAAAAAAAALhhlpgB3
+  </data>
+ </layer>
+ <layer id="24" name="StructureMaster" width="70" height="70">
+  <data encoding="base64" compression="zlib">
+   eJzt2k0uQ1EchvFzexeAMeJ7bmKG+N4BjQF2gZ1gD9gPdoKI984qeSVOzv/0Fs8veWftae/TDipuSgCASfMx6PsdTCa6eHTx6OLRxaOLRxePLh5dPLp4dPHo4i20KS2ObENbb/t+V/3bUYPdkZ22fIe+QxePLh5dPLp4dPHo4tHFo4tHF48uXkmXYz33RBv+wbYlXS713Cvtmi5f0MW70XNvtTu6/Bt08ejijbPLlF5rWpv5BZ8F3xePLh5dPLp4uV2e9Phn7aWwZ9Q5teR2edXj37T3wuuJOqeW3C6zbUpz2nzh/ymjzqklt8umrmNL2y68nqhzasntcqbrONcuCq8n6pxacrvcNyk9aI9N2etGnVMLXTy6eHTx6OLRxePvI69Wl0a/SwYT+tvkJ7p7EdcC193PuKQtayvaasCZfejuRTwKXHc/4562rx1ohwFnAgAAAACA8foEQB9ySg==
+  </data>
+ </layer>
+ <objectgroup id="8" name="Wall">
+  <object id="66" x="447.359" y="479.75" width="5.3913" height="64.4844"/>
+  <object id="67" x="448.5" y="540.25" width="79.1875" height="4"/>
+  <object id="69" x="523.25" y="481" width="4.75" height="63.25"/>
+  <object id="72" x="415.409" y="830.114" width="49.3636" height="35.6364"/>
+  <object id="73" x="703.091" y="830.977" width="50.3182" height="34.2727"/>
+  <object id="74" x="234.841" y="284" width="69.9091" height="6.25"/>
+  <object id="75" x="232.25" y="286.5" width="6.5" height="595.5"/>
+  <object id="76" x="234" y="877" width="647" height="5"/>
+  <object id="77" x="877.75" y="235.75" width="7" height="646"/>
+  <object id="78" x="812.25" y="237" width="71.75" height="5.25"/>
+  <object id="79" x="811.75" y="237.25" width="7.25" height="173.75"/>
+  <object id="81" x="630" y="398.917" width="188.981" height="18.5833"/>
+  <object id="82" x="300.772" y="400.5" width="255.228" height="17.5"/>
+  <object id="83" x="300.75" y="285.5" width="7" height="126.25"/>
+  <object id="88" x="466" y="472.114" width="44.5455" height="3.81818"/>
+  <object id="89" x="255.271" y="319.313" width="17.125" height="17.125"/>
+  <object id="93" x="508.375" y="474.125" width="7.75" height="6.375"/>
+  <object id="94" x="515.125" y="477.75" width="9" height="7.125"/>
+  <object id="95" x="460.375" y="474.125" width="10.625" height="3.5"/>
+  <object id="96" x="451" y="476.75" width="12.75" height="5"/>
+  <object id="98" x="671.801" y="592.727" width="21.4602" height="18.2614"/>
+  <object id="99" x="690.875" y="592.781" width="13.75" height="12.2188"/>
+  <object id="100" x="655.929" y="592.75" width="17.5707" height="8.71739"/>
+  <object id="101" x="846.727" y="271.182" width="18.2727" height="17.6364"/>
+  <object id="103" x="547.659" y="467.568" width="10.1818" height="104.182"/>
+  <object id="104" x="625.636" y="467.636" width="10.7273" height="105.091"/>
+  <object id="105" x="547.75" y="642.5" width="9.5" height="238.75"/>
+  <object id="106" x="626.75" y="642.75" width="9.5" height="238"/>
+  <object id="107" x="399.341" y="487.386" width="33.2273" height="57.0455"/>
+  <object id="108" x="367.25" y="839.375" width="33.875" height="25.125"/>
+  <object id="109" x="383.125" y="831" width="17.5" height="9.75"/>
+  <object id="110" x="798.5" y="503.125" width="50.5" height="25.375"/>
+  <object id="111" x="782.75" y="711.25" width="50.25" height="24.25"/>
+  <object id="112" x="798.25" y="732.75" width="34.65" height="19.25"/>
+  <object id="113" x="719.688" y="439.653" width="32.5" height="24.5966"/>
+  <object id="114" x="735.693" y="431.724" width="16.5256" height="9.01136"/>
+  <object id="115" x="302.75" y="631.375" width="50.375" height="25.375"/>
+  <object id="116" x="704" y="448" width="16" height="16"/>
+ </objectgroup>
+ <objectgroup id="18" name="Door">
+  <object id="85" name="CAVE" x="555.75" y="397.75" width="73.8333" height="6.83333"/>
+ </objectgroup>
+ <objectgroup id="15" name="Object">
+  <object id="90" name="Etere" x="252.667" y="316.773" width="22.7917" height="22.875"/>
+  <object id="102" name="Coda di Fenice" x="843.364" y="268.636" width="24.9091" height="23.6364"/>
+  <object id="117" name="Pozione" x="700.773" y="445.045" width="22.2045" height="21.8636"/>
+ </objectgroup>
+</map>

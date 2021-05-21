@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.3.4" orientation="orthogonal" renderorder="right-down" width="60" height="55" tilewidth="16" tileheight="16" infinite="0" nextlayerid="25" nextobjectid="130">
+ <tileset firstgid="1" name="cave" tilewidth="16" tileheight="16" tilecount="336" columns="16">
+  <image source="../../MapTexture/cave.png" trans="ff00ff" width="256" height="336"/>
+  <tile id="304">
+   <animation>
+    <frame tileid="304" duration="200"/>
+    <frame tileid="306" duration="200"/>
+    <frame tileid="308" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="305">
+   <animation>
+    <frame tileid="305" duration="200"/>
+    <frame tileid="307" duration="200"/>
+    <frame tileid="309" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="320">
+   <animation>
+    <frame tileid="320" duration="200"/>
+    <frame tileid="322" duration="200"/>
+    <frame tileid="324" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="321">
+   <animation>
+    <frame tileid="321" duration="200"/>
+    <frame tileid="323" duration="200"/>
+    <frame tileid="325" duration="200"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="337" name="SNES - Final Fantasy 6 - Imperial Camp Tiles" tilewidth="16" tileheight="16" tilecount="528" columns="33">
+  <image source="../../MapTexture/SNES - Final Fantasy 6 - Imperial Camp Tiles.png" trans="ff00ff" width="528" height="256"/>
+ </tileset>
+ <layer id="18" name="Background" width="60" height="55">
+  <data encoding="base64" compression="zlib">
+   eJztmkEOgjAQRbn/Tm+gl1KRPQoHUHeWRBNDpmPpQDvT/sVLN4T4/NDOTOiapukAAAAAAIA6To6zgIsChyX0jr1jF7lemf+iVeBH+R4dh8h1dDw9DAr8pPnO/V7MvR+fa3I7SvK9K/jNKfO17js9c0NF+f4615DvkpynvYrbn6zRM7mW5vr1rSHXf/mW8s6G5svVjNZr6dg62uJz4Ms3dLXoi3zpHmgoOF/Kg6q7LfqGvpdUX2XRd818fbMiLeeWNN/5Od0uuJ/FfLfcxyUzRW6+FlpftcR1W57TknMy9xrjK6mDUq7U2R3Ta2nIKeU8JHduqedduXNLna9vpq+NEuciAAAAeKTfJmjtU31MPdptRbT0qfCFL3zhC1/45naq1fcNjWGt5A==
+  </data>
+ </layer>
+ <layer id="19" name="Structure" width="60" height="55">
+  <data encoding="base64" compression="zlib">
+   eJzt2r0OAVEQhuHZC0DPXgH6rfzc/w0sBVoKtBR+RnKKJdnERpxzMvM+yZvTyXylUIlIRWbbaDtt6+Q9amft5OS9aQ/t7uTtFSIDre/kBYB/qrVVaJ34llj2oUPqQyLxtvflol1THwEAAAAAABDZTJuHFolviWFYvP8eat2Yvaax1zb22sZe29hrG3vz0fwu07Vly2fmvLf8uK1Lo5b/krE3H+xlL3vZ28TefEx/2Dv5cu8TJxMElw==
+  </data>
+ </layer>
+ <layer id="23" name="Scrigni" width="60" height="55">
+  <data encoding="base64" compression="zlib">
+   eJzt1kENADAIA0DwPP9BBgzuFPTRpI0AAIAbXnYnAACAWXxkAH5gr9hEnwEAAABgjwK4zQHV
+  </data>
+ </layer>
+ <layer id="20" name="Pozione" width="60" height="55">
+  <data encoding="base64" compression="zlib">
+   eJztzgENAAAIA6Ab2v7GcE5IQAIAAAAAwEdd2wMAAAAAAACAmwbF8gB3
+  </data>
+ </layer>
+ <layer id="21" name="Etere" width="60" height="55">
+  <data encoding="base64" compression="zlib">
+   eJztzjERAAAIBKA3tP0toecCCUgAAAAAAAAAgGtd3wMAAAAAYMsAZLYAdw==
+  </data>
+ </layer>
+ <layer id="22" name="Coda di Fenice" width="60" height="55">
+  <data encoding="base64" compression="zlib">
+   eJztzkEBAAAEBLATWn8BBOCxJVgCAAAAAAAA8FPX9QAAAAAAALYBsKUAdw==
+  </data>
+ </layer>
+ <layer id="24" name="Chiave" width="60" height="55">
+  <data encoding="base64" compression="zlib">
+   eJztzgENAAAIA6Ab2v7GcFNIQAIAAD90bQ8AAAAAAAAAAACACwbo1QB3
+  </data>
+ </layer>
+ <objectgroup id="3" name="Wall">
+  <object id="85" x="704" y="480" width="16" height="16"/>
+  <object id="86" x="704" y="528" width="16" height="16"/>
+  <object id="87" x="677.636" y="544.909" width="79.4545" height="8.72727"/>
+  <object id="88" x="751.273" y="476.182" width="7.27273" height="75.2727"/>
+  <object id="89" x="666.364" y="472.364" width="95.2727" height="7.09091"/>
+  <object id="90" x="598.727" y="477.818" width="69.8182" height="16.7273"/>
+  <object id="92" x="594.364" y="363.818" width="7.63636" height="130.545"/>
+  <object id="93" x="439.455" y="357.455" width="158.545" height="9.09091"/>
+  <object id="94" x="576" y="368" width="16" height="16"/>
+  <object id="97" x="2" y="518.5" width="340.5" height="9"/>
+  <object id="98" x="-0.5" y="608.25" width="677.25" height="8.25"/>
+  <object id="99" x="342" y="295" width="7.5" height="232.5"/>
+  <object id="100" x="331.625" y="285.75" width="16" height="12.75"/>
+  <object id="101" x="316" y="270.75" width="17.75" height="17.75"/>
+  <object id="102" x="299.125" y="255.375" width="20.875" height="20.375"/>
+  <object id="103" x="296" y="172" width="8" height="92.9091"/>
+  <object id="104" x="300" y="164.25" width="248.75" height="11.25"/>
+  <object id="105" x="481.795" y="209" width="64.9545" height="7.5"/>
+  <object id="106" x="544.75" y="172.5" width="13.25" height="12.75"/>
+  <object id="107" x="544.5" y="199" width="13.25" height="12.5"/>
+  <object id="108" x="553.75" y="182.75" width="109.25" height="5.75"/>
+  <object id="109" x="555.25" y="196.75" width="107.375" height="4.25"/>
+  <object id="110" x="663.625" y="169.25" width="46.125" height="4.375"/>
+  <object id="111" x="706.625" y="172.5" width="3.125" height="38.75"/>
+  <object id="112" x="666" y="210.25" width="44.75" height="4.5"/>
+  <object id="114" x="688" y="176" width="16" height="16"/>
+  <object id="116" x="660" y="174.375" width="7.625" height="8.75"/>
+  <object id="117" x="660.5" y="200.5" width="7.875" height="11.375"/>
+  <object id="118" x="481.818" y="213.455" width="5.63636" height="79.6364"/>
+  <object id="119" x="434.182" y="329.273" width="9.81818" height="37.2727"/>
+  <object id="120" x="436.182" y="320.545" width="18" height="9.27273"/>
+  <object id="121" x="450.364" y="305.636" width="22.5455" height="14.9091"/>
+  <object id="122" x="464.545" y="291.091" width="22.9091" height="16.1818"/>
+  <object id="123" x="674" y="549.5" width="9" height="63.75"/>
+  <object id="124" x="438.25" y="417.25" width="84" height="7.75"/>
+  <object id="125" x="518.25" y="423.25" width="7" height="98"/>
+  <object id="126" x="437.75" y="519.75" width="82.75" height="6.5"/>
+  <object id="127" x="434.25" y="424.25" width="8.25" height="98"/>
+  <object id="128" name="Circo" x="513.5" y="177.25" width="31.25" height="30"/>
+ </objectgroup>
+ <objectgroup id="8" name="Door">
+  <object id="96" name="CAVE" x="89" y="525" width="8" height="86"/>
+ </objectgroup>
+ <objectgroup id="5" name="Object">
+  <object id="83" name="Etere" x="700.364" y="524.364" width="23.6364" height="23.4545"/>
+  <object id="84" name="Coda di Fenice" x="700.364" y="477.091" width="23.2727" height="21.8182"/>
+  <object id="95" name="Pozione" x="572.545" y="364.909" width="23.2727" height="22"/>
+  <object id="113" name="Chiave" x="681.25" y="172" width="29" height="25.75"/>
+  <object id="129" name="Circo" x="507.5" y="171.5" width="43.25" height="42"/>
+ </objectgroup>
+</map>

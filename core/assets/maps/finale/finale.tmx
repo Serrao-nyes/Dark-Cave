@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.3.4" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="16" tileheight="16" infinite="0" nextlayerid="17" nextobjectid="116">
+ <tileset firstgid="1" name="cave" tilewidth="16" tileheight="16" tilecount="336" columns="16">
+  <image source="../../MapTexture/cave.png" trans="ff00ff" width="256" height="336"/>
+  <tile id="304">
+   <animation>
+    <frame tileid="304" duration="200"/>
+    <frame tileid="306" duration="200"/>
+    <frame tileid="308" duration="200"/>
+    <frame tileid="306" duration="200"/>
+    <frame tileid="304" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="305">
+   <animation>
+    <frame tileid="305" duration="200"/>
+    <frame tileid="307" duration="200"/>
+    <frame tileid="309" duration="200"/>
+    <frame tileid="307" duration="200"/>
+    <frame tileid="305" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="320">
+   <animation>
+    <frame tileid="320" duration="200"/>
+    <frame tileid="322" duration="200"/>
+    <frame tileid="324" duration="200"/>
+    <frame tileid="322" duration="200"/>
+    <frame tileid="320" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="321">
+   <animation>
+    <frame tileid="321" duration="200"/>
+    <frame tileid="323" duration="200"/>
+    <frame tileid="325" duration="200"/>
+    <frame tileid="323" duration="200"/>
+    <frame tileid="321" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="337" name="SNES - Final Fantasy 6 - Imperial Camp Tiles" tilewidth="16" tileheight="16" tilecount="528" columns="33">
+  <image source="../../MapTexture/SNES - Final Fantasy 6 - Imperial Camp Tiles.png" trans="ff00ff" width="528" height="256"/>
+ </tileset>
+ <layer id="15" name="Background" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztmEEOwiAQRbmlegLjCdQTaJftxm7bk8pmksnPQKlSZ6iz+IE0oHwen0K7EELncrlcLpfrb3WIOlbUScnHOaqPGgpKfCbVL4o+pqi5oMRnVOc+NX3gvJYoxcaCj6lQvD3xoLqFdbWUA8wK72eFR8pDKu8z+LTCg8bIueR8UFu+3rR9SPmV8szHT7KUc57fHuq4llL7siUeAwg9SPuUZR583JJHyzykvZbnP5cbSzxyZw7ua1por+XjGvXKzDO+y9Eb7zdG3ZV8YEZKzovSWUWTBWdyAxGjVA5GoY8mi7W50c7zJz6Qh6U15Dza9YHnj1bXFZ6nnIfz2IpHiz4kHi2uq73xaD3nv36f1/xeTnoE+Z5Bnp4b/GfqfP2tUveMWr+P97CSe451rZmfmqy24lHqWXvel3iUfF+2Xkr5aLHUnkfnsU8eb+MkWQ4=
+  </data>
+ </layer>
+ <layer id="16" name="Structure" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztmckNwkAMRX2jCOgA7jkRqAM6gIpYGmBpgKUBlqLwxdIcCGMJk7HDf9KTj5mvP5NIk4qIKgjhR3vshl0HnZJjxh7YfdApORbshT0HnWmOB3sPOtN95Z0xW7OTNzPtwztLyr+vIvQxp3wO9NEe6MMXmhwR+tDsK/TRHv90ziPkQB++QB++QB++wPfcFyvK3/tEyLEj3b2Pd07UfO8jvWyLrU7PjZrvfaSXY7HV2SC9XEsv5Eukl2fphQAAAAAFqI2dKp8r/5YsTP9HWdlX5hj84NmWDpU5Rg7WapHDex/afeW9j66cj67kKHXOX/HORYc=
+  </data>
+ </layer>
+ <objectgroup id="2" name="Wall">
+  <object id="97" x="1" y="673.818" width="333.333" height="10.1818"/>
+  <object id="98" x="-1" y="645.273" width="347.045" height="9.68177"/>
+  <object id="99" name="Ruxoll" x="394.75" y="254.25" width="26.25" height="30.75"/>
+  <object id="101" x="344" y="425" width="7.66667" height="222.667"/>
+  <object id="102" x="266.333" y="415.667" width="79" height="14.3333"/>
+  <object id="103" x="249" y="385.333" width="18.6667" height="10.3333"/>
+  <object id="104" x="261" y="391.667" width="9" height="29.6667"/>
+  <object id="105" x="245.667" y="175" width="9.66667" height="214.333"/>
+  <object id="106" x="247" y="169.5" width="324" height="6.5"/>
+  <object id="107" x="560" y="171" width="6" height="219"/>
+  <object id="108" x="549.818" y="386.727" width="15.2727" height="9.27273"/>
+  <object id="109" x="544.727" y="390.909" width="8.72727" height="36.1818"/>
+  <object id="110" x="468.727" y="416.364" width="80" height="10.7273"/>
+  <object id="111" x="464.667" y="420.667" width="7.33333" height="230"/>
+  <object id="112" x="469" y="648" width="330.333" height="8.66667"/>
+  <object id="113" x="483" y="673.667" width="318" height="6.66667"/>
+  <object id="114" x="479.333" y="677.333" width="8.33333" height="120.667"/>
+  <object id="115" x="328.667" y="681" width="9.33333" height="117"/>
+ </objectgroup>
+ <objectgroup id="9" name="Door">
+  <object id="95" name="CAVE" x="337" y="785.667" width="141" height="12"/>
+ </objectgroup>
+ <objectgroup id="6" name="Object">
+  <object id="100" name="Ruxoll" x="389" y="250.25" width="37.75" height="40.5"/>
+ </objectgroup>
+</map>

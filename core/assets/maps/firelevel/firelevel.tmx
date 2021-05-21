@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.3.4" orientation="orthogonal" renderorder="right-down" width="70" height="60" tilewidth="16" tileheight="16" infinite="0" nextlayerid="18" nextobjectid="86">
+ <tileset firstgid="1" name="cave" tilewidth="16" tileheight="16" tilecount="336" columns="16">
+  <image source="../../MapTexture/cave.png" trans="ff00ff" width="256" height="336"/>
+  <tile id="304">
+   <animation>
+    <frame tileid="304" duration="200"/>
+    <frame tileid="306" duration="200"/>
+    <frame tileid="308" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="305">
+   <animation>
+    <frame tileid="305" duration="200"/>
+    <frame tileid="307" duration="200"/>
+    <frame tileid="309" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="320">
+   <animation>
+    <frame tileid="320" duration="200"/>
+    <frame tileid="322" duration="200"/>
+    <frame tileid="324" duration="200"/>
+   </animation>
+  </tile>
+  <tile id="321">
+   <animation>
+    <frame tileid="321" duration="200"/>
+    <frame tileid="323" duration="200"/>
+    <frame tileid="325" duration="200"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="337" name="SNES - Final Fantasy 6 - Imperial Camp Tiles" tilewidth="16" tileheight="16" tilecount="528" columns="33">
+  <image source="../../MapTexture/SNES - Final Fantasy 6 - Imperial Camp Tiles.png" trans="ff00ff" width="528" height="256"/>
+ </tileset>
+ <layer id="9" name="Background" width="70" height="60">
+  <data encoding="base64" compression="zlib">
+   eJzt0TERgDAAwMAiqTgA/6Lo2kNAfuiQewGZ1xj3ah43n9V7/Fl/Ua2/qNZfVOsvqvUX1fqLav1Ftf6iWn9Rrb+o1l9U6y+q9RfV+otq/UW1/qJaf1Gtv6jWX1TrL6r1F9X6i2r9RbX+olp/Ua2/qNZfVOsvqvUX1fqLav1Ftf6iWn9Rrb+o1l9U6y+q9RfV+otq/UW1/qJaf1Gtv6jWX1TrL6r1F9X6i2r9RbX+olp/Ua2/qNZfVOsvqvUX1fqLav1Ftf6iWn9Rrb+oflp9v/I=
+  </data>
+ </layer>
+ <layer id="11" name="Background2" width="70" height="60">
+  <data encoding="base64" compression="zlib">
+   eJztmusNgjAURsv+06gTqBOoE8gGOoE0xoSQj3LBlrZwTvL99HFP6RvnAAAA4nDocgzklO+vZcM7eXa5BHLN9u/+Y6q9Q21+dmEnpXix1DjMVHv7tE67uXW59/ISny3Bi6X9lsZSn/p9vOzTi+9LS8abrXux1Docb3wecUtcREovb1dWrXPIPb6UCl40Y176fSC01qjNi1qvqTlhzIuqqWnmuSnRi3X+m+PF491YniP/vJU41qbyolCuSnTiWdNLTah6W2ffA+7JS+1zSQzwosGLBi8atU9VGVunbdWLldjzdOhctKZz/theQv23pmcQLxq8aPDyZTguju0D1J7h37ulpd/ZTyrWOudOlVTgRYMXDV40eNFY3if4Rd0J5M5a1LreSA1eNHvyMucdqKn1aU1nA1PEnHO25Cb2XLyV/oQXDV40eNFY7wKsKfUOHgAAAAAA9sEH46Unfg==
+  </data>
+ </layer>
+ <layer id="10" name="Structure" width="70" height="60">
+  <data encoding="base64" compression="zlib">
+   eJztm1tOwzAQRcfisQEeG+CxBf6ALUNhAVBYABR2ACug5RtLwZLrHjxUoolR7pGu7FhJZM3HkRpP52a2iJl/Z9H4mObeeu3605a5jTkrsh3MdkI35vNWxzT31mvXu2G5Lo9Ql/14z0Hoxnze6pjm3nrt+rCoyyvU5TjecxK6MZ+3Oqa5t167Pi3q8g51EewXwX4R7Bchv/yE/MKQX85jLirj5RAb7Rnyi5ebQXbaL+QXLw+D7LRfyC9eXgbZab+QX7y8DbLTfpFfGPmFkV8Y+YWRXxj5hZFfGPnF7CrmOmaSrckvZncx9zHTbE1+MXuKeY6ZZWvyC/Nhq+duY/MLsRVWz93G5hdiD87dxuYX4gjO3eQXRn5h5BdGfmHkF0Z+YeQXRn5h5BdGfmHkF0Z+YeQXRn5hvN7zsmd8LHi952XPeGuk7/uUSeU5D6/3vOwZb430fZ8yrTzn4fWelz3jrbGpuvx3VBdGdWFUFyadH1JmleeEEJuH/hewiaz77t/en+99nXjv9H43KoqiKH+bL9doZW8=
+  </data>
+ </layer>
+ <layer id="15" name="Scrigni" width="70" height="60">
+  <data encoding="base64" compression="zlib">
+   eJzt2MEJADAIA0DdufsjDiEVuZsgv4REAAAAcM3L3wkAYCcdCQAAs2xuAAAA4Cq/BwAAANAKxs4B1Q==
+  </data>
+ </layer>
+ <layer id="17" name="Chiave" width="70" height="60">
+  <data encoding="base64" compression="zlib">
+   eJztzgENAAAIA6Ab2v7GcPsgAQkAAABtdr4HAAAAAAAAAAAAAAAA0OUAF/8Adw==
+  </data>
+ </layer>
+ <layer id="13" name="Pozione" width="70" height="60">
+  <data encoding="base64" compression="zlib">
+   eJztzgENAAAIA6Ab2v7GcE5IQAIAAAAA8EPX9gAAAAAAAAAAAAAAuGoAzSsAdw==
+  </data>
+ </layer>
+ <layer id="14" name="Etere" width="70" height="60">
+  <data encoding="base64" compression="zlib">
+   eJztzkENAAAIBKAztP0N4ZwfSEACAAAAAAAAALDX9T0AAAAAAAAAALgzhWgAdw==
+  </data>
+ </layer>
+ <layer id="16" name="Coda di Fenice" width="70" height="60">
+  <data encoding="base64" compression="zlib">
+   eJztzjEBAAAIA6AZ2v4m8NYDEpAAAAAAAAAAAAAAAACw6boeAAAAAB8MsqAAdw==
+  </data>
+ </layer>
+ <objectgroup id="3" name="Wall">
+  <object id="12" x="816" y="464" width="16" height="16"/>
+  <object id="15" x="288" y="304" width="16" height="16"/>
+  <object id="16" x="272" y="720" width="16" height="16"/>
+  <object id="19" x="816" y="192" width="16" height="16"/>
+  <object id="28" x="852.25" y="517" width="139.125" height="10.625"/>
+  <object id="29" x="847.75" y="449" width="7.625" height="78.25"/>
+  <object id="30" x="748" y="441.75" width="106" height="9"/>
+  <object id="31" x="738.625" y="448.5" width="11.875" height="79"/>
+  <object id="32" x="516" y="514.667" width="233.333" height="12.3333"/>
+  <object id="33" x="511.667" y="260.667" width="9.33333" height="265.667"/>
+  <object id="34" x="512.545" y="256.364" width="87.0909" height="11.4545"/>
+  <object id="35" x="596.727" y="262.727" width="12.9091" height="19.8182"/>
+  <object id="37" x="606" y="273.091" width="14.5455" height="18.3636"/>
+  <object id="38" x="617.273" y="289.636" width="74.1818" height="13.0909"/>
+  <object id="40" x="688.364" y="292.545" width="13.6364" height="24.1818"/>
+  <object id="41" x="699.091" y="306" width="72.3636" height="14.3636"/>
+  <object id="43" x="768.364" y="291.636" width="21.0909" height="24.7273"/>
+  <object id="44" x="783.818" y="219.091" width="8.90909" height="77.0909"/>
+  <object id="46" x="787.091" y="210.364" width="14.9091" height="14.1818"/>
+  <object id="48" x="797.636" y="210" width="40.5455" height="10.1818"/>
+  <object id="49" x="797.818" y="185.091" width="39.2727" height="5.45455"/>
+  <object id="50" x="787.818" y="175.818" width="12.9091" height="14"/>
+  <object id="51" x="784.545" y="141.818" width="6.90909" height="41.6364"/>
+  <object id="52" x="775.091" y="133.818" width="14.5455" height="10.3636"/>
+  <object id="54" x="766.364" y="122.909" width="12.7273" height="12.7273"/>
+  <object id="55" x="631.091" y="118.727" width="138" height="8.54545"/>
+  <object id="57" x="426.5" y="126.364" width="210" height="16.6364"/>
+  <object id="58" x="418" y="136" width="12.5" height="215.455"/>
+  <object id="59" x="342.364" y="339.818" width="86.7273" height="11.4545"/>
+  <object id="62" x="335.091" y="283.091" width="11.2727" height="62.1818"/>
+  <object id="63" x="265.455" y="280.364" width="74.5455" height="7.63636"/>
+  <object id="64" x="261.333" y="283.667" width="10" height="148.667"/>
+  <object id="66" x="266" y="417" width="163.424" height="15"/>
+  <object id="67" x="421.455" y="424.909" width="8.18182" height="98.3636"/>
+  <object id="68" x="362.727" y="518.545" width="66.7273" height="8.72727"/>
+  <object id="69" x="356.667" y="523" width="11.6667" height="102.333"/>
+  <object id="70" x="362.667" y="610" width="68" height="15"/>
+  <object id="72" x="419" y="616" width="11" height="70"/>
+  <object id="73" x="249" y="676.25" width="180.5" height="12"/>
+  <object id="74" x="244.25" y="684.25" width="12.25" height="100.25"/>
+  <object id="75" x="250.667" y="767.833" width="313.333" height="15.5"/>
+  <object id="77" x="558.75" y="702.25" width="8.5" height="76.25"/>
+  <object id="78" x="551.5" y="692" width="14.5" height="12"/>
+  <object id="80" x="544.5" y="683.5" width="12" height="13"/>
+  <object id="81" x="529.75" y="614.5" width="16.25" height="69.5"/>
+  <object id="82" x="536.667" y="607.939" width="456.833" height="15.3939"/>
+  <object id="83" name="Dragon" x="752.5" y="182" width="40.5" height="40"/>
+ </objectgroup>
+ <objectgroup id="8" name="Door">
+  <object id="20" name="CAVE" x="982.667" y="527" width="7.33333" height="85.3333"/>
+ </objectgroup>
+ <objectgroup id="5" name="Object">
+  <object id="13" name="Etere" x="813" y="461.25" width="22.25" height="21.875"/>
+  <object id="14" name="Pozione" x="285.636" y="302" width="21.0909" height="20.4545"/>
+  <object id="17" name="Coda di Fenice" x="268.455" y="717.636" width="23.1818" height="21.9091"/>
+  <object id="18" name="Chiave" x="812.364" y="190" width="23.6364" height="20.1818"/>
+  <object id="84" name="Dragon" x="748.5" y="177" width="49" height="50.5"/>
+ </objectgroup>
+</map>
